@@ -7,13 +7,31 @@ const plus3 = document.getElementById("plus3");
 const display = document.getElementById("display");
 const reSet = document.getElementById("re-set");
 
-// number,l,n,mの変数宣言
+// number,n,mの変数宣言
 let number = 0;
 let l = 0;
 let n = 0;
 let m = 0;
 
-//ボタンを押したときの処理
+// // ボタンを押したときの処理
+// plus.onclick = function () {
+//   // カウントを１増やす
+//   number += 10;
+//   //   counterのtextContentをnumberに代入
+//   counter.textContent = number;
+//   //   素数となる条件式による表示の変化
+//   if (isPrimeNumber(number)) {
+//     display.textContent = "👀❗️素数😍😍😍😍";
+//   } else {
+//     display.textContent = "👀　素数じゃない...";
+//   }
+//   if (50 < number && number <= 100) {
+//     display.textContent += "...暇なの？";
+//   }
+//   if (number > 100) {
+//     display.textContent += "...ばかなの？？";
+//   }
+// };
 plus.onclick = function () {
   //カウントを１増やす
   l += 1;

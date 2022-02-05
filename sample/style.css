@@ -1,5 +1,6 @@
+/* //bodyタグの色作成 */
 body {
-  background-color: beige; /* 背景色の変更 */
+  background-color: beige;
   background-size: cover;
   height: 100vh;
   display: inline-flex;
@@ -35,11 +36,11 @@ body {
 }
 /* //portfolio__profile__name__ja */
 .portfolio__profile__name__ja {
-  font-size: 100px; /* 文字の大きさの変更 */
+  font-size: 100px;
 }
 /* //portfolio__profile__name__en */
 .portfolio__profile__name__en {
-  font-size: 20px; /* 文字の大きさの変更 */
+  font-size: 10px;
 }
 /* //portfolio__profile__links */
 .portfolio__profile__links {
@@ -56,7 +57,7 @@ body {
 .portfolio__prime-checker {
   border: solid 1px rgb(0, 0, 0);
   /* height: 20vmin;
-      width: 25vw; */
+    width: 25vw; */
   margin-top: 5vmin;
   padding: 1vmin;
   display: flex;
@@ -79,15 +80,12 @@ body {
   padding: 0.1em 0.5em;
   font-size: 3vmin;
 }
-/* 要素の追加 */
 .portfolio__prime-checker__counter__element2 {
-  /* 要素の追加 */
   border: solid 1px rgb(0, 0, 0);
   padding: 0.1em 0.5em;
   font-size: 3vmin;
 }
 .portfolio__prime-checker__counter__element3 {
-  /* 要素の追加 */
   border: solid 1px rgb(0, 0, 0);
   padding: 0.1em 0.5em;
   font-size: 3vmin;
@@ -97,12 +95,10 @@ body {
   color: rgb(255, 255, 255);
 }
 #counter2 {
-  /* 要素の追加 */
   background: rgb(0, 0, 0);
   color: rgb(255, 255, 255);
 }
 #counter3 {
-  /* 要素の追加 */
   background: rgb(0, 0, 0);
   color: rgb(255, 255, 255);
 }
@@ -112,12 +108,10 @@ body {
   color: rgb(0, 0, 0);
 }
 #plus2 {
-  /* 要素の追加 */
   background: rgb(233, 233, 233);
   color: rgb(0, 0, 0);
 }
 #plus3 {
-  /* 要素の追加 */
   background: rgb(255, 233, 233);
   color: rgb(0, 0, 0);
 }
